@@ -1,0 +1,20 @@
+# Python 
+__pycache__/ 
+*.pyc 
+.env 
+# Data 
+data/raw/ 
+data/processed/ 
+# Models 
+models/*
+!models/.gitkeep
+# MLflow 
+mlruns/ 
+# Reports 
+reports/ 
+# Conda 
+.conda/ 
+venv/ 
+# Jupyter 
+.ipynb_checkpoints/ 
+*.ipynb 
